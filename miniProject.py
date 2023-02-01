@@ -10,7 +10,7 @@ class firstName:
 fName = firstName()
 
 class lastName:
-    stu1 = "Nader"
+    stu1 = "Nadir"
     stu2 = "Eddison"
     stu3 = "Perry"
     stu4 = "Winger"
@@ -20,14 +20,17 @@ class lastName:
 
 lName = lastName()
 
-class score:
-    stu1 = 78
-    stu2 = 95
-    stu3 = 64
-    stu4 = 75
-    stu5 = 70
-    stu6 = 74
-    stu7 = 69
+studentScore = {
+    "stu-one" : 78,
+    "stu-two" : 95,
+    "stu-three" : 64,
+    "stu-four" : 75,
+    "stu-five" : 70,
+    "stu-six" : 74,
+    "stu-seven" : 69
+    }
+
+studentPerc = studentScore
 print (firstName.stu4)
 print (lastName.stu4)
-print (score.stu4)
+print (studentScore["stu-four"])(studentPerc)
