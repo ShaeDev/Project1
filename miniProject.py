@@ -30,7 +30,7 @@ studentScore = {
     "stu-seven" : 69
     }
 
-studentPerc = studentScore
+studentPerc = studentScore + "%"
 print (firstName.stu4)
 print (lastName.stu4)
-print (studentScore["stu-four"])(studentPerc)
+print (studentScore["stu-four"])
